@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #afd5ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #58a2f5;
+}
+
+.forgot-password,
+.signup {
+    text-align:center;
+    color:#5e91cb
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+#nav3 {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#nav3 > a {
+    line-height: 80px;
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    left: 30px;
+}
+
+#nav3 > select {
+    padding: 0 20px;
+    height: 30px;
+    background-color: #F5CCCC;
+    color: #000000;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-15px);
+    border: 2px solid #F5CCCC;
+    border-radius: 30px;
+}
+
+#nav3 > ul {
+    display: inline-block;
+}
+
+#nav3 > ul li {
+    float: left;
+    line-height: 80px;
+    padding: 0 30px;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    font-weight:100;
+    color: gray;
+    font-size:small;
+    margin: 10px;
+    text-align: center;
+}
